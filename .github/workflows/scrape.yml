@@ -1,0 +1,46 @@
+name: MDDCPN Foreclosure Scraper
+
+on:
+  schedule:
+    # Daily at 7am Eastern (11:00 UTC)
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch:  # allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright beautifulsoup4 python-dotenv
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python mddcpn_scraper.py
+
+      - name: Commit output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p archive
+          cp mddcpn_auctions.json archive/$(date +%Y-%m-%d).json
+          find archive -name "*.json" -mtime +90 -delete
+          git add mddcpn_auctions.json archive/
+          git diff --cached --quiet || git commit -m "Auction update $(date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
