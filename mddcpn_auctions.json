@@ -1,0 +1,61 @@
+{
+  "last_updated": "2026-04-10T21:59:15.934764Z",
+  "auctions": [
+    {
+      "id": "mddcpn-c09cv25000340",
+      "property_address": "6 WEST END A, Dorchester County, MD",
+      "auction_date": "2026-04-08",
+      "auction_time": "",
+      "auction_location": "CIRCUIT COURT FOR DORCHESTER COUNTY",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "county": "Dorchester County",
+      "state": "MD",
+      "source": "MDDCPN",
+      "status": "active",
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=80277"
+    },
+    {
+      "id": "mddcpn-c09cv25000331",
+      "property_address": "5511 Maple Drive, Federalsburg, MD 21632",
+      "auction_date": "2026-03-28",
+      "auction_time": "",
+      "auction_location": "CIRCUIT COURT FOR Dorchester COUNTY",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "county": "Dorchester County",
+      "state": "MD",
+      "source": "MDDCPN",
+      "status": "active",
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=77488"
+    },
+    {
+      "id": "mddcpn-c09cv25000183",
+      "property_address": "809 Wood, Dorchester County, MD",
+      "auction_date": "2026-02-18",
+      "auction_time": "",
+      "auction_location": "CIRCUIT COURT FOR Dorchester COUNTY",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "county": "Dorchester County",
+      "state": "MD",
+      "source": "MDDCPN",
+      "status": "active",
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=29105"
+    },
+    {
+      "id": "mddcpn-c09cv25000177",
+      "property_address": "2564 SOU, Dorchester County, MD",
+      "auction_date": "2026-02-11",
+      "auction_time": "",
+      "auction_location": "CIRCUIT COURT FOR DORCHESTER COUNTY",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "county": "Dorchester County",
+      "state": "MD",
+      "source": "MDDCPN",
+      "status": "active",
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=29083"
+    }
+  ]
+}
