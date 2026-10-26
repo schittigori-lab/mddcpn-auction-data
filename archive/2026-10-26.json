@@ -1,0 +1,33 @@
+{
+  "last_updated": "2026-10-26T17:08:06.701222Z",
+  "auctions": [
+    {
+      "id": "mddcpn-c09cv26000115",
+      "property_address": "607 YELLOW, Dorchester County, MD",
+      "auction_date": "2026-10-21",
+      "auction_time": "",
+      "auction_location": "CIRCUIT COURT FOR DORCHESTER COUNTY",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "county": "Dorchester County",
+      "state": "MD",
+      "source": "MDDCPN",
+      "status": "active",
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=129749"
+    },
+    {
+      "id": "mddcpn-c09cv26000002",
+      "property_address": "3209 Bay View Drive, Church Creek, MD 21622",
+      "auction_date": "2026-10-09",
+      "auction_time": "",
+      "auction_location": "CIRCUIT COURT FOR Dorchester COUNTY",
+      "bid_deposit": "",
+      "opening_bid": "",
+      "county": "Dorchester County",
+      "state": "MD",
+      "source": "MDDCPN",
+      "status": "active",
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=126948"
+    }
+  ]
+}
