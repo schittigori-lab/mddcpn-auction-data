@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-24T20:59:54.817431Z",
+  "last_updated": "2026-11-25T20:22:54.719114Z",
   "auctions": [
     {
       "id": "mddcpn-c09cv25000279",
       "property_address": "5344 BU, Dorchester County, MD",
-      "auction_date": "2026-11-18",
+      "auction_date": "2026-11-25",
       "auction_time": "",
       "auction_location": "CIRCUIT COURT FOR DORCHESTER COUNTY",
       "bid_deposit": "",
@@ -13,12 +13,12 @@
       "state": "MD",
       "source": "MDDCPN",
       "status": "active",
-      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=137287"
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=138833"
     },
     {
       "id": "mddcpn-c09cv26000179",
       "property_address": "106 Black, Dorchester County, MD",
-      "auction_date": "2026-11-18",
+      "auction_date": "2026-11-25",
       "auction_time": "",
       "auction_location": "CIRCUIT COURT FOR Dorchester COUNTY",
       "bid_deposit": "",
@@ -27,7 +27,7 @@
       "state": "MD",
       "source": "MDDCPN",
       "status": "active",
-      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=137286"
+      "detail_url": "https://www.mddcpublicnotices.com/Details.aspx?ID=138832"
     },
     {
       "id": "mddcpn-c09cv26000115",
